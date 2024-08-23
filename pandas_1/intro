@@ -1,0 +1,5 @@
+- used for data manipulation
+- to teach a machine we need to:
+    - analyse data
+    - clean data- for perfect data, if there is any missing data we need to handle those
+    - collect useful data

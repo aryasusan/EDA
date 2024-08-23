@@ -16,7 +16,7 @@ print(a[:,0],'zeroth column')
 print(a[-1],'last row')
 print(a[:,-1],'last column')
 
-print(a[-5:-1,-4:-2])
+print(a[-4:-1,-4:-2])
 # [[3 4]
 #  [8 9]
 #  [3 4]]

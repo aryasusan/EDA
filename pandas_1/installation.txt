@@ -1,0 +1,2 @@
+go to files > new projects setup > settings for new project > python interpreter>
++ button > search for pandas > install box tick > apply

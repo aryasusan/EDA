@@ -1,0 +1,17 @@
+3 types of data_structures:
+    1. Series
+    2. Data Frame
+    3. Label
+
+To analyse data using pandas, 1st convert it into data_structures:
+1.Series:
+    - if data is 1D
+    - eg, list,dictionary
+
+2.Data Frame:
+    - if data is 2D
+    - eg, nested list, nested dict, text/csv/json files
+
+3.Label:
+    - if data is 3D
+    - eg, image
