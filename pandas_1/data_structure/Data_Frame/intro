@@ -1,0 +1,3 @@
+- if the dataset is 2D we convert it into data frame
+- o/p will be in the form form of rows & columns
+- eg of 2d data set-- nested list, nested dict, text/csv/json files
