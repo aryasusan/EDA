@@ -1,5 +1,4 @@
 import pandas as pd
-from numpy.f2py.symbolic import as_ge
 
 df = pd.read_csv('/home/arya/EDAProjects/EDA_Project/pandas_1/data_structure/Data_Frame/file_convertion/sample4.txt',sep=',',header=None)
 df.columns = ['Id','fname','lname','age','phno','location']

@@ -1,5 +1,6 @@
 # loc works same like filter
 # newdf = old_df.loc[old_df['column_name']condition]
+
 #  if more than 1 condition:
 #  newdf = old_df.loc[(old_df['column_name']condition)operator(old_df['column_name']condition)]
 
