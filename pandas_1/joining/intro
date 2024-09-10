@@ -1,0 +1,8 @@
+ Pandas Joining:
+    joins 2 data frames with a common field
+
+ Types:
+     Inner joining
+     left outer joining
+     right outer joining
+     full outer joining

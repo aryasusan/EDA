@@ -1,0 +1,2 @@
+Inner join returns a Dataframe with only those rows that have common characteristics.
+This is similar to the intersection of two sets.
