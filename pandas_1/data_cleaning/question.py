@@ -30,17 +30,17 @@ mean_trestbps = df['trestbps'].mean() # datatype is float so use mean
 df['trestbps'].fillna(mean_trestbps,inplace=True)
 
 print(df['restecg'].unique()) # displays value
-mode_restecg = df['restecg'].mode()[0]
+mode_restecg = df['restecg'].mode()[0]  # only some values.so use mode
 df['restecg'].fillna(mode_restecg,inplace=True)
 
 print(df['thalach'].unique())
 mean_thalach = df['thalach'].mean()
 df['thalach'].fillna(mean_thalach,inplace=True)
 
-mean_ca = df['ca'].mean()
+mode_ca = df['ca'].mode()[0] # only some values.so use mode
 df['ca'].fillna(mean_ca,inplace=True)
 
-mean_thal = df['thal'].mean()
+mode_thal = df['thal'].mode()[0]
 df['thal'].fillna(mean_thal,inplace=True)
 print(df)
 
