@@ -18,3 +18,6 @@ print(df3)
 
 df4 = df.groupby('location') ['location'].count().sort_values(ascending=False) # descending sort count
 print(df4)
+
+#value counts:
+  df5= df['Gender'].value_counts()
